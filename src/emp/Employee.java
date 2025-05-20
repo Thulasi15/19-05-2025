@@ -24,20 +24,13 @@ public class Employee {
 	  	FileUtils.write(f, "simple program",true); 
 List<String> lines=FileUtils.readLines(f);
 //System.out.println(lines);
-for(String s:lines) {
-	System.out.println(s);
-	if(s.contains("Java")) {
-		
-		System.out.println("true");
+
+
 	}
-	else {
-		System.out.println("false");
-	}
+
+public void statement() {
+	System.out.println("merging pull request");
 }
 
 
-	}
 }
-
-
-
