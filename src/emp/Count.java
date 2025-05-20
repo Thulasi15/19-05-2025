@@ -20,7 +20,13 @@ public class Count {
 	 System.out.println(newFile);
 	
 	 }
+ 
+ 
+ public void editing() {
+	 System.out.println("checking  ");
+ }
 
  }
+
      
 
